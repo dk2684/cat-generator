@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.header___main{
+  background-color: black;
+  color: white;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat___main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cat___img {
+  max-height: 40%;
+  max-width: 40%;
+  margin: 1rem;
+}
+
+.cat___btn{
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
